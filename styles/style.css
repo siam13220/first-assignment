@@ -3,6 +3,22 @@ body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 140px;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
 
 /* header related styles */
 
@@ -68,4 +84,14 @@ span {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+
+/* instagram section styles */
+section .insta-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images {
+  margin-right: 25px;
 }
