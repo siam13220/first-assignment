@@ -9,6 +9,8 @@ body {
   font-size: 40px;
   font-weight: 800;
   margin-top: 140px;
+  padding-top: 20px;
+  margin-bottom: 0;
 }
 .section-description {
   color: rgba(39, 39, 39, 0.6);
@@ -17,7 +19,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 48px;
-  margin-top: 24px;
+  /* margin-top: 15px; */
 }
 
 /* header related styles */
@@ -87,11 +89,31 @@ span {
 }
 
 /* instagram section styles */
-section .insta-images {
+.insta-images {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .images {
   margin-right: 25px;
+}
+
+/* offer section styles */
+.deals {
+  background-image: url("../assets/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65% 100%;
+  border-radius: 5px;
+}
+.contact {
+  text-align: center;
+}
+.contact input[type="email"],
+textarea {
+  border-radius: 5px;
+  padding: 22px;
+  margin: 25px;
+  border: 0;
+  width: 25%;
 }
